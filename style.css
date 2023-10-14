@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(248, 235, 235);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header > img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25rem;
+padding: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    color: rgb(73, 72, 72);
+}
+
+h2{
+    font-size: 1rem;
+    color: rgb(73, 72, 71);
+}
+
+nav{
+    background-color: rgb(158, 155, 155);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+nav ul{
+    list-style:none ;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-inline: 5rem;
+}
+                                                                                                                
+nav a{
+    text-align: center                                                                                                              ;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(129, 128, 128);
+}
+
+section{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article{
+    flex: 1;
+}
+
+article:hover{
+    box-shadow: 10px 10px 10px rgb(187, 184, 184);
+}
+
+.section1{
+    Background-color: rgb(248, 222, 244);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.section1 p{
+    font-size: medium;
+}
+
+.section2{
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.article2 img{
+    width: 10rem;
+    height: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.article3 img{
+    width: 10rem;
+    height: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.section2 article{
+    Background-color: rgb(247, 220, 243);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.section2 article p{
+    font-size: small;
+}
+
+.article4 ul{
+    list-style: none;
+    font-size: small;
+    padding: 1rem;
+}
+
+.article4 li{
+    padding: 0.5rem;
+}
+
+.article4 li span{
+    font-weight: bold;
+}
+
+#visit{
+    color: rgb(66, 65, 65);
+    font-size: medium;
+}
+
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+
+footer div img{
+    height: 4rem;
+    width: 2rem;
+}
+
+#container2{
+    border-top: 0.1rem solid rgb(121, 118, 118);
+}
+footer div #copyright{
+    float: right;
+    font-size: small;
+}
